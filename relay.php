@@ -2,7 +2,7 @@
 $server="localhost";
 $username="pasindu";//THE DEFAULT USERNAME OF THE DATABASE
 $password="1234";
-$dbname="relay";
+$dbname="eleccare";
 $con=mysqli_connect($server,$username,$password,$dbname) or die("unable to connect");
 $relay_id = $_GET["Relay_ID"];
 $sql="SELECT Status from relay where Relay_ID = $relay_id";//WE ARE TRYING TO GET THE NAME OF THE STUDENT BY ENTERING THE RANK
