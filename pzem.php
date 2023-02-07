@@ -1,10 +1,15 @@
 <?php
 //Creates new record as per request
     //Connect to database
-    $servername = "us-cdbr-east-06.cleardb.net";		//example = localhost or 192.168.0.0
-    $username = "b1a5a43416daaa";		//example = root
-    $password = "c00249cd07ca62d";	
-    $dbname = "heroku_5e3abbc608c2126";
+    // $servername = "us-cdbr-east-06.cleardb.net";		//example = localhost or 192.168.0.0
+    // $username = "b1a5a43416daaa";		//example = root
+    // $password = "c00249cd07ca62d";	
+    // $dbname = "heroku_5e3abbc608c2126";
+    $servername = "192.168.43.101";		//example = localhost or 192.168.0.0
+    $username = "pasindu";		//example = root
+    $password = "1234";	
+    $dbname = "eleccare";
+
 
     // Create connection
     $conn = new mysqli($servername, $username, $password, $dbname);
